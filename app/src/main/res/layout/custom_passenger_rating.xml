@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="3dip">
+
+    <TextView
+        android:id="@+id/txtheader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Start a Trip" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtheader"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/passenger" />
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/passenger" />
+
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/passenger" />
+
+        <ImageView
+            android:id="@+id/img4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/passenger" />
+
+    </LinearLayout>
+</RelativeLayout>

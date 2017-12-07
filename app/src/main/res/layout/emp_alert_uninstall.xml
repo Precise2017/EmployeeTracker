@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lin"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/txttitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/txtmessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txttitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:textColor="#000000"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/etcode"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtmessage"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp" />
+
+    <Button
+        android:id="@+id/btnok"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etcode"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@color/color_head_taacker"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="SUBMIT"
+        android:textColor="#ffffff"
+         />
+
+    <Button
+        android:id="@+id/btncancel"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnok"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:background="#FF0000"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="CANCEL"
+        android:textColor="#ffffff"
+        />
+
+</RelativeLayout>

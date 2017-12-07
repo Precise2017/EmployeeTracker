@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6bc9e1</color>
+    <color name="colorPrimaryDark">#1e7d94</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorBg">#FFFFFF</color>
+
+    <color name="color_head_taacker">#1e7d94</color>
+    <color name="color_head_taacker_light">#6bc9e1</color>
+</resources>

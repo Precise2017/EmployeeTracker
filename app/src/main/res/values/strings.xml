@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Employee Tracker</string>
+
+    <string name="str_splash_slogan">Put Your Slogan Here....</string>
+
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <string name="nav_home">Home</string>
+    <string name="nav_feedback">Task Feedback</string>
+    <string name="nav_reset">Reset Password</string>
+    <string name="api_key">AIzaSyBeGMIL8hOpvn-dVTpCOP2GPYPWtDfwZXY</string>
+
+    <string-array name="feedbackstatus">
+        <item>Select Status</item>
+        <item>Complete</item>
+        <item>Pending</item>
+    </string-array>
+</resources>
