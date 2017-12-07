@@ -26,7 +26,7 @@ public class DeviceControlAdapter extends BaseAdapter {
         mInflater = (LayoutInflater)mContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
     }
 
-    String str;
+    String str="testmessage";
 
     public void updateArray(ArrayList<DeviceControlObject> objects)
     {
