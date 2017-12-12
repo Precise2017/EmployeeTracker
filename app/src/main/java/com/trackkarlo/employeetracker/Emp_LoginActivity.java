@@ -49,7 +49,7 @@ import com.trackkarlo.employeetracker.utils.Emp_PrefManager;
 
 public class Emp_LoginActivity extends AppCompatActivity {
 
-    String str="test";
+   String str="test_updated";
     EditText edtTextEmail;
     EditText edtTextPassword;
 
