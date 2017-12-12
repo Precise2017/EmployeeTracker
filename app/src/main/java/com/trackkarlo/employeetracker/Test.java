@@ -18,7 +18,7 @@ import android.widget.Toast;
  */
 
 public class Test {
-
+ String str="testclass";
 
 
    }
