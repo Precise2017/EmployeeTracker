@@ -68,6 +68,7 @@ import static android.app.Activity.RESULT_OK;
 
 public class Emp_UserFragment extends Fragment {
 
+    String str="test";
     public Emp_UserFragment() {
         // Required empty public constructor
     }

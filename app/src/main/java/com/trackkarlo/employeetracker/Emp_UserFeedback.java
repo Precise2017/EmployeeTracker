@@ -58,6 +58,7 @@ public class Emp_UserFeedback extends Fragment {
         // Required empty public constructor
     }
 
+    String str="test";
     EditText edttaskname, edtDescription, edtContactPerson;
     Button btn;
     Spinner spinnerStatus;
