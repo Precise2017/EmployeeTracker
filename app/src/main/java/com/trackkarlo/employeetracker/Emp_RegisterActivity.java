@@ -41,7 +41,7 @@ import java.util.regex.Pattern;
 
 public class Emp_RegisterActivity extends Activity {
 
-    String str="test";
+   String str="test_updated";
     EditText edtTextFName, edtTextLName, edtTextMobile, edtTextEmail, edtTextPassword, edtTextConfirmPassword, edtCompany;
     Button btnregister;
     private ProgressBar mRegistrationProgressBar;
