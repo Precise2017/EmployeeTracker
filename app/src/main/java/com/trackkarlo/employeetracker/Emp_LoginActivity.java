@@ -299,7 +299,7 @@ public class Emp_LoginActivity extends AppCompatActivity {
                 .setMessage(message)
                 .setIcon(R.mipmap.ic_launcher)
                 .setCancelable(false)
-                .setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+                .setPositiveButton("OK", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
                         Intent intent = new Intent();
                         intent.setAction(Settings.ACTION_APPLICATION_DETAILS_SETTINGS);
@@ -316,7 +316,6 @@ public class Emp_LoginActivity extends AppCompatActivity {
 //    - created new app for employee tracking
 //    - made some design changes
 //    - tested all api in application
-
 
 //    @Override
 //    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
