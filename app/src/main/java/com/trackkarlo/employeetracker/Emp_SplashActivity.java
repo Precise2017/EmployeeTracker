@@ -21,7 +21,7 @@ import com.trackkarlo.employeetracker.utils.Emp_PrefManager;
 
 public class Emp_SplashActivity extends AppCompatActivity {
 
-    protected int splashTime = 1000;
+    protected int splashTime = 2000;
     private Emp_PrefManager prefManager;
     int secondsDelayed = 3;
     String strUSER_INFO_LOGGED_IN = "0";

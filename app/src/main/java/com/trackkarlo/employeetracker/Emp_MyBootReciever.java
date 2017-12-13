@@ -16,7 +16,6 @@ import com.trackkarlo.employeetracker.utils.Emp_PrefManager;
 public class Emp_MyBootReciever extends WakefulBroadcastReceiver {
     @Override
     public void onReceive(Context context, Intent intent) {
-
         try
         {
             Emp_PrefManager prefManager  = new Emp_PrefManager(context);

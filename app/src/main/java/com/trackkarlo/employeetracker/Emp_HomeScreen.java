@@ -33,6 +33,7 @@ import com.trackkarlo.employeetracker.db.Emp_UserTableData;
 
 public class Emp_HomeScreen extends AppCompatActivity {
 
+    String str="test_updated";
     private NavigationView navigationView;
     private DrawerLayout drawer;
     private View navHeader;
